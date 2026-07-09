@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+@font-face{
+    font-family: ;
+    sr: url(),url();
+}
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    width: 100px;
+    height: 500vh;
+}
+section>header{
+    background-color: white;
+    height: 30vh;
+
+}
+section>header>.secondar-nav{
+
+    height: 25%;
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+    place-items: center;
+    p{
+        color: white;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        font-family: sans-serif;  }
+}
+
